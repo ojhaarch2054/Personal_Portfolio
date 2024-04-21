@@ -1,0 +1,85 @@
+.contact{
+    margin-top: 5%;
+}
+.contactBack{
+    position: absolute;
+    font-size: 9vw;
+    color: rgba(255, 255, 255, 0.076);
+    font-weight: 800;
+    margin-left: 27%;
+    position: absolute;
+    margin-top: 0.5%;
+}
+.contactHeading{
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 800;
+}
+.contactPara{
+    width: 50%;
+    margin-top: 3%;
+    color: #999999;
+    text-align: center;
+    margin-left: 25%;
+}
+.icon{
+    color: #fff724;
+    text-align: center;
+   
+}
+.contactContainer h5{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 400;
+}
+.contactContainer p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contactForm{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 2% 0 2% 0;
+   
+    
+}
+input{
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+    padding: 3%;
+    font-size: 1em;
+    font-weight: 500;
+}
+.contactForm .msgBtn{
+    margin-top: 4%;
+
+}
+.msg{
+    height: 200px;
+    width: 400px;
+}
+
+.msgBtn{
+   margin-left: 31%;
+   padding: 4%;
+   font-size: 1em;
+   font-weight: 500;
+   border-radius: 5px;
+   background-color: #fff724;
+   
+
+}

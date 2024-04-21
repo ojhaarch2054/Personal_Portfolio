@@ -1,0 +1,68 @@
+.projectLayer {
+    position: absolute;
+    bottom: 35%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+}
+.projectLayer h4{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.projectLayer a i{
+    font-size: 2em;
+    color: white;
+}
+
+.projectBox1, .projectBox2, .projectBox3, .projectBox4 {
+    position: relative;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+.projectBox1::before {
+    content: "";
+    background-image: url(feedback\ \(1\).jpg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: 2%;
+}
+
+.projectBox2::before, .projectBox3::before {
+    content: "";
+    background-image: url(project1.jpg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: 2%;
+}
+
+.projectBox4::before {
+    content: "";
+    background-image: url(travell.webp);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: 2%;
+}
+
+.projectBox1 p, .projectBox2 p, .projectBox3 p, .projectBox4 p {
+    position: relative;
+    font-size: 1em;
+}
+
+.box:hover {
+    opacity: 1;
+}

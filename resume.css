@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.resumeBack{
+    position: absolute;
+    font-size: 9vw;
+    color: rgba(255, 255, 255, 0.076);
+    font-weight: 800;
+    margin-left: 27%;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+.resumeHeading{
+    color: white;;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.resumePara{
+    width: 50%;
+    margin-top: 3%;
+    color: #999999;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.test{
+    margin: 5rem 0 0 14rem;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+    border-radius: 20px;
+    
+}
+.box{
+    padding: 4% 2%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    text-align: center;
+    color:#999999;
+   
+}
+.box:nth-child(3){
+    height: 20rem;
+}
+.box:nth-child(4){
+    height: 20rem;
+}
+.box p{
+    color: #fff;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+h4{
+    font-size: 2rem;
+    color: #fff724;
+    
+    
+}
+h5{
+    font-size: 1rem;
+    
+}
+ul{
+    list-style-type: none;
+}
+.btn{
+    margin-left:42%;
+    margin-top: 3%;
+    padding: 0.5% 2%;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color:#fff724;;
+    
+    
+}
+
+@media (max-width : 700px){
+    .test{
+        grid-template-columns: minmax(100px, 2fr);
+        margin: 5rem 0 0 0;
+        text-align: center;
+    }
+    .resumeHeading{
+        color: white;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 800;
+    }
+    .btn{
+        width: 50%;
+        margin-left:22%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        background-color:#fff724;;
+        
+        
+    }
+   
+    
+}

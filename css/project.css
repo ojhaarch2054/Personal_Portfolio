@@ -1,3 +1,30 @@
+.projectContainer{
+
+}
+.projectBack{
+    position: absolute;
+    font-size: 9vw;
+    color: rgba(255, 255, 255, 0.076);
+    font-weight: 800;
+    margin-left: 27%;
+    position: absolute;
+    margin-top: 0.5%;
+}
+.projectHeading{
+    color: white;;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 800;
+}
+.projectPara{
+    width: 50%;
+    margin-top: 3%;
+    color: #999999;
+    text-align: center;
+    margin-left: 25%;
+}
+
+
 .projectLayer {
     position: absolute;
     bottom: 35%;
@@ -24,7 +51,7 @@
 
 .projectBox1::before {
     content: "";
-    background-image: url(feedback\ \(1\).jpg);
+    background-image: url(../photos/feedback\ \(1\).jpg);
     position: absolute;
     top: 0;
     right: 0;
@@ -36,7 +63,7 @@
 
 .projectBox2::before, .projectBox3::before {
     content: "";
-    background-image: url(project1.jpg);
+    background-image: url(../photos/project1.jpg);
     position: absolute;
     top: 0;
     right: 0;
@@ -48,7 +75,7 @@
 
 .projectBox4::before {
     content: "";
-    background-image: url(travell.webp);
+    background-image: url(../photos/travell.webp);
     position: absolute;
     top: 0;
     right: 0;

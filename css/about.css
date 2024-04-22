@@ -43,7 +43,7 @@
     max-width: 100%;
     width: 50%;
     height: 80vh;
-    background-image: url('photo.png');
+    background-image: url('../photos/photo.png');
     background-size: cover;
     background-position:20% center;
     background-repeat: no-repeat;

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="resume.css">
-    <link rel="stylesheet" href="experience.css">
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="stylesheet" href="./css/experience.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <title>Archana Resume</title>
 </head>
 <body>
@@ -47,7 +47,7 @@
 
 
         </div>
-        <img src="photo.png" alt="image" class="my-image">
+        <img src="./photos/photo.png" alt="image" class="my-image">
     </section>
 
     <section class="about" id="aboutMe">
@@ -164,7 +164,7 @@
             <a href="#" class="edit"><i class="fas fa-edit fa-2x"></i></a>
             <h1 class="ExperienceBack">Experience</h1>
             <h3 class="ExperienceHeading">Experience</h3>
-            <p class="resumePara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut architecto rerum quibusdam unde facere beatae quasi, voluptatibus dolore, consequatur fuga,</p>
+            <p class="ExperiencePara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut architecto rerum quibusdam unde facere beatae quasi, voluptatibus dolore, consequatur fuga,</p>
             <div class="test">
                 <div class="box">
                     <h4>Mar 2021-May 2022</h4>
@@ -228,7 +228,7 @@
             <a href="#" class="edit"><i class="fas fa-edit fa-2x"></i></a>
             <h1 class="skillsBack">SKILLS</h1>
             <h3 class="skillsHeading">My Skills</h3>
-            <p class="resumePara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut architecto rerum quibusdam unde facere beatae quasi, voluptatibus dolore, consequatur fuga,</p>
+            <p class="skillsPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut architecto rerum quibusdam unde facere beatae quasi, voluptatibus dolore, consequatur fuga,</p>
         <div class="skillscontainer">
             <div class="skills box">
                 
@@ -277,12 +277,12 @@
         </div>
     </section>
 
-    <section class="Resume" id="project">
-        <div class="resumeContainer">
+    <section class="project" id="project">
+        <div class="projectContainer">
             <a href="#" class="edit"><i class="fas fa-edit fa-2x"></i></a>
-            <h1 class="resumeBack">Projects</h1>
-            <h3 class="resumeHeading">My Projects</h3>
-            <p class="resumePara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut architecto rerum quibusdam unde facere beatae quasi, voluptatibus dolore, consequatur fuga,</p>
+            <h1 class="projectBack">Projects</h1>
+            <h3 class="projectHeading">My Projects</h3>
+            <p class="projectPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut architecto rerum quibusdam unde facere beatae quasi, voluptatibus dolore, consequatur fuga,</p>
             <div class="test">
                 <div class="projectBox1 box">
                     <div class="projectLayer">
@@ -361,9 +361,9 @@
                 <div class="formDetails">
                     <form class="forms">
                         <input type="text" placeholder="Your Full Name"><br>
-                        <input type="text" placeholder="Your Email Address"><br>
+                        <input type="text" class="Email" placeholder="Your Email Address"><br>
                         <input type="text" placeholder="Your Subject"><br>
-                        <input type="text" class="msg" placeholder="Your Message"><br>
+                        <textarea class="msg" rows="4" cols="50" placeholder="Your Message"></textarea>
                         <button class="msgBtn">Send Message</button>
 
                     </form>
@@ -379,7 +379,8 @@
         </div>
     </section>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="portfolio.js"></script> 
+    <script src="./js/portfolio.js"></script> 
+    <script src="./js/contact.js"></script> 
 </body>
 </html>
 

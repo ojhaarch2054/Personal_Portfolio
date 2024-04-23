@@ -5,13 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    
-    
+    font-family: 'Poppins', sans-serif; 
 }
+
 body{
     background-color: #020412;
 }
+
 /*style for header section*/
 .header{
     width: 100%;
@@ -86,8 +86,7 @@ nav ul li a:hover{
     text-decoration: none;
     font-weight: 300;
 }
-.text-box a .button{
-}
+
 .text-box #contactMe{
     border: 2px solid #fff724;
     color: #fff724;

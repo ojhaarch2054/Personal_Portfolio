@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #020412;
+   background-color: #020412;
 }
 
 /*style for header section*/
@@ -26,11 +26,11 @@ nav{
     width: 100%;
     align-items: center;
     padding: 30px 0 10px;
-    /*position: fixed; /* Add this line */
-   /* top: 0; /* Add this line */
-   /* left: 0; /* Add this line */
-   /* background-color: #020412; /* Add this line */
-    /*z-index: 1000; /* Add this line */
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    background-color: #020412;
+    z-index: 1000;
     
 }
 /*style for logo*/
@@ -40,6 +40,7 @@ nav{
     letter-spacing: 0.15em;
     font-size: 2em;
     font-weight: bold;
+    margin-left: 10%;
 }
 /*style for nav link*/
 nav ul{
@@ -66,6 +67,7 @@ nav ul li a:hover{
 }
 /*style for text-box*/
 .text-box{
+
     font-size: 17px;
     letter-spacing: 1px;
     line-height: 1em;
@@ -144,7 +146,9 @@ nav ul li a:hover{
     *{
     width: 100%;
     }
-
+    nav{
+    position: static;
+    }
     .logo{
     cursor: pointer;
     text-decoration: none;
@@ -166,9 +170,10 @@ nav ul li a:hover{
     }
 
     .text-box {
+        position: static;
         margin-left: 0;
         text-align: center;
-        /*margin-top: 15%;*/
+        margin-top: 15%;
     }
    .text-box a{
         margin-top: 6%;

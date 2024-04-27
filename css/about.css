@@ -87,15 +87,17 @@ h2{
     color: #999999;
 }
 
-@media only screen and (max-width: 768px) {
-
+@media(max-width: 767px) {
     .about_Me{
         display: none;
     }
     .photos {
         display: none;
     }
-
+   
+    .about{
+     margin-top: 50%;
+    }
     .text-section {
         margin-left: 20px;
         position: static;
@@ -127,10 +129,27 @@ h2{
     .text-section{ 
         margin-right: 50% ; 
     }
-    .edit {
-        font-size: 0.7em;
-        padding-top: 40px;
-        margin-left: 350px;
-        
+    .edit .fa-edit {
+        display: none;   
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-section {
+        margin-right: 80%; 
+    }
+    .about_Me{
+        display: none;
+    }
+    .about{
+        margin-top: 70%;
+        margin-left: -42%;
+    }
+    .about .edit .fa-edit{
+        display: none;
+    }
+    .photos{
+        display: none;
+    }
+    
 }

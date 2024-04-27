@@ -22,7 +22,15 @@ body{
     font-size: 3vw;
     font-weight: 800;
 }
-
+.Resume{
+    margin-top: 10%;
+}
+.Experience{
+    margin-top: 10%;
+}
+.project{
+    margin-top: 10%;
+}
 .resumePara{
     width: 50%;
     margin-top: 3%;
@@ -80,9 +88,7 @@ ul{
     padding: 0.5% 2%;
     font-size: 1.5em;
     font-weight: 700;
-    background-color:#fff724;;
-    
-    
+    background-color:#fff724;; 
 }
 
 @media (max-width : 700px){
@@ -103,10 +109,35 @@ ul{
         margin-top: 5%;
         font-size: 1.5rem;
         font-weight: 600;
-        background-color:#fff724;;
-        
-        
+        background-color:#fff724;;   
     }
    
     
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Resume{
+        margin-top: -55%;
+
+    }
+   .fa-edit{
+    display: none;
+   } 
+   .resumeBack{
+    display: none;
+   }
+   .test{
+    grid-template-columns: minmax(100px, 2fr);
+    text-align: center;
+    }
+    .test .box{
+        margin-left:-29.25% ;
+    }
+   a .btn{
+    width: 50%;
+    margin-left:22%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color:#fff724;;   
+}
 }

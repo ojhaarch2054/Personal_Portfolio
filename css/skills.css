@@ -171,10 +171,28 @@
 @media screen and (max-width: 768px) {
     .skillscontainer {
         padding: 10px;
+        margin: 0;
+    }
+
+    .skillsHeading{
+        font-size: 2rem;
+        top: 0;
+
     }
 
     .skills h2 {
         font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .professional #professional {
+        width: 40%;
+    }
+
+    .profList li {
+        width: 40%;
     }
 }
 
@@ -194,9 +212,6 @@
 
 
 /* Professional Skills */
-.professional {
-
-}
 
 .professional #professional {
     border-radius: 10px;
@@ -237,12 +252,30 @@
 /* Responsive */
 @media screen and (max-width: 768px) {
     .professional #professional {
-        padding: 10px;
-    }
-
-    .profList li {
-        font-size: 14px;
+        margin: 1px;
         width: 100%;
+    }
+    #professional h4{
+        font-size: 2em;
+    }
+    .profList {
+        margin-top: -10%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .profList li {
+        width: 80%;
+        font-size: 1.25rem !important;
+    }
+    
+    .profList li i {
+        color: #4CAF50; /* Green */
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
     }
 }
 

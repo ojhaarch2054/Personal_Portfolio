@@ -96,3 +96,27 @@ input{
    border-radius: 5px;
    background-color: #fff724;
 }
+
+/* for different screen*/
+
+@media only screen and (max-width: 768px) {
+    .contactBack {
+      display: none;
+    }
+    .contactHeading {
+      font-size: 2em;
+    }
+    .contactContainer {
+    margin-top: 10%;
+    }
+    .contactContainer .icon i{
+        font-size: 2em !important;
+    }
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #messagebtn{
+       /*remaining*/
+    }
+}

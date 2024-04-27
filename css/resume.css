@@ -88,7 +88,6 @@ ul{
 @media (max-width : 700px){
     .test{
         grid-template-columns: minmax(100px, 2fr);
-        margin: 5rem 0 0 0;
         text-align: center;
     }
     .resumeHeading{
@@ -96,6 +95,7 @@ ul{
         text-align: center;
         font-size: 8vw;
         font-weight: 800;
+        margin-top: -73%;
     }
     .btn{
         width: 50%;

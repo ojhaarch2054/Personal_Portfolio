@@ -92,3 +92,27 @@
 .box:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .projectBack{
+        display: none;
+    }
+    .projectHeading{
+        margin-top: -5%;
+        color: white;;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    .projectPara{
+        width: 50%;
+        margin-top: 3%;
+        color: #999999;
+        text-align: center;
+        margin-left: 25%;
+    }
+   
+    .box:hover {
+        opacity: 1;
+    }
+}
